@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 15px;
+}
+
+table, th, td {
+  border: 1px solid #333;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+button.remove {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+}

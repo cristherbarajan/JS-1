@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript #1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Javascript #1</h1>
+
+  <label for="numberInput">Insert any Positive Numbers:</label>
+  <input type="number" id="numberInput" min="1">
+  <button onclick="insertNumber()">Insert</button>
+  <button onclick="clearEntry()">Clear Entry</button>
+
+  <h2>Inserted Numbers</h2>
+  <table id="numbersTable">
+    <tr>
+      <th>Number</th>
+      <th>Parity</th>
+      <th>Actions</th>
+    </tr>
+
+  </table>
+
+  <div class="controls">
+    <button onclick="clearItems()">Clear Items</button>
+    <button onclick="getTotal()">Get Total</button>
+    <button onclick="identifyHighLow()">Identify Highest and Lowest Number</button>
+    <select id="sortOptions" onchange="sortNumbers()">
+      <option value="">Sort by: Please select</option>
+      <option value="asc">Ascending</option>
+      <option value="desc">Descending</option>
+    </select>
+  </div>
+
+  <footer>
+    <p>&copy; All Rights Reserved @ BARAJAN </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
